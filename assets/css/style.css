@@ -87,7 +87,7 @@ nav .menu img:last-child {
 .fixed_menu ul li span {
     display: none;
     position: relative;
-    bottom: 3vh;
+    bottom: 0vh;
     padding-right: 3vh;
 }
 
@@ -138,4 +138,11 @@ a {
 #slides {
     position: relative;
     top: 100px;
+}
+
+.fa-images, .fa-chart-line, .fa-map {
+    font-size: 32px;
+    position: relative;
+    top: 8px;
+    left: 7px;
 }

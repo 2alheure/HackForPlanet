@@ -7,7 +7,7 @@
     <title>HackForPlanet</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
 
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Nunito+Sans:400,700" rel="stylesheet">
     <link rel="stylesheet" href="<?= toAbsolute('css/style.css'); ?>">
 
@@ -28,10 +28,10 @@
 
     <div class="fixed_menu">
         <ul>
-            <li><a href="<?= base_url('slides') ?>"><div><i class="far fa-images"></i></div> <span>Our pitch</span></a></li>
-            <li><a href="<?= base_url('dashboard') ?>"><div class="yellow"><i class="far"></i></div> <span>Dashboard</span></a></li>
-            <li><div class="orange"><i class="far"></i></div> <span>Test</span></li>
-            <li><div class="pink"><i class="far"></i></div> <span>Test</span></li>
+            <li><a href="<?= base_url('slides') ?>"><div class="pink"><i class="fas fa-images"></i></div> <span>Our pitch</span></a></li>
+            <li><a href="<?= base_url('dashboard') ?>"><div class="yellow"><i class="fas fa-chart-line"></i></div> <span>Dashboard</span></a></li>
+            <li><div class="orange"><i class="fas fa-map"></i></div> <span>Test</span></li>
+            <li><div class="pink"><i class="far fa-map white"></i></div> <span>Test</span></li>
             <li><div class="redish"><i class="far"></i></div> <span>Test</span></li>
         </ul>
     </div>
