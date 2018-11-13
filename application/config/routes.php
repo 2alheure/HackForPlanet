@@ -55,6 +55,7 @@ $route['index'] = 'StaticPages/main';
 $route['accueil'] = 'StaticPages/main';
 
 $route['slides'] = 'StaticPages/main/slides';
+$route['dashboard'] = 'StaticPages/main/dashboard';
 
 $route['default_controller'] = 'StaticPages/main';
 $route['404_override'] = '';

@@ -1,8 +1,17 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
 /** LAYOUT **/
 
 nav {
+    position: fixed;
+    left: 0;
+    right: 0;
     height: 50px;
     box-shadow: 0 8px 10px -3px #EEEFF3;
+    z-index: 100;
 }
 
 nav .logo {
@@ -66,4 +75,18 @@ nav .menu img:last-child {
 a {
     color: black !important;
     text-decoration: none !important;
+}
+
+.margin0auto {
+    display: block;
+    margin: 0 auto;
+}
+
+.img_map {
+    display: block;
+    margin: 0 auto;
+    width: 40%;
+    position: relative;
+    top: 100px;
+    z-index: 1;
 }
