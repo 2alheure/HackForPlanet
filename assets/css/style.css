@@ -12,6 +12,7 @@ nav {
     height: 50px;
     box-shadow: 0 8px 10px -3px #EEEFF3;
     z-index: 100;
+    background: #FFFFFFFF;
 }
 
 nav .logo {
@@ -89,4 +90,9 @@ a {
     position: relative;
     top: 100px;
     z-index: 1;
+}
+
+.mTop100 {
+    position: relative;
+    top: 100px;
 }

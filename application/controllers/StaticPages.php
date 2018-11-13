@@ -17,6 +17,10 @@ class StaticPages extends CI_Controller {
 					$css[] = 'http://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.css';
 					$js[] = 'http://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.js';
 					break;
+				case 'dashboard':
+					$css[] = toAbsolute('css/dashboard.css');
+					$js[] = toAbsolute('js/chartist.min.js');
+					break;
 			}
 
 			if (is_file(APPPATH.'views/'.$load.'.php')) $this->load->view('layout', ['file' => $layout, 'css' => $css, 'js' => $js]);
