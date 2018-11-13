@@ -43,6 +43,8 @@ nav .menu img:last-child {
     -moz-box-shadow:    10px 10px 15px #EEEFF3;
     -webkit-box-shadow: 10px 10px 15px #EEEFF3;
     box-shadow:         10px 10px 15px #EEEFF3;
+    z-index: 50;
+    background-color: #fff;
 }
 
 .fixed_menu ul {
@@ -89,4 +91,15 @@ a {
     position: relative;
     top: 100px;
     z-index: 1;
+}
+
+
+
+
+
+
+/** SLIDES **/
+#slides {
+    position: relative;
+    top: 100px;
 }
