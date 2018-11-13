@@ -10,26 +10,14 @@
                             <div class="card">
 
                                 <div class="header">
-                                    <h4 class="title">Email Statistics</h4>
-                                    <p class="category">Last Campaign Performance</p>
+                                    <h4 class="title">Informations</h4>
+                                    <p class="category">Daily weather</p>
                                 </div>
                                 <div class="content">
-                                    <div id="chartPreferences" class="ct-chart ct-perfect-fourth"></div>
-
-                                    <div class="footer">
-                                        <div class="legend">
-                                            <i class="fa fa-circle text-info"></i>
-                                            Open
-                                            <i class="fa fa-circle text-danger"></i>
-                                            Bounce
-                                            <i class="fa fa-circle text-warning"></i>
-                                            Unsubscribe
-                                        </div>
-                                        <hr>
-                                        <div class="stats">
-                                            <i class="fa fa-clock-o"></i>
-                                            Campaign sent 2 days ago
-                                        </div>
+                                    <div id="chartPreferences" class="ct-chart ct-perfect-fourth charts245">
+                                        <img src="<?= toAbsolute('img/weather.png'); ?>" alt="" srcset=""><br />
+                                        <h2 class="nunitoSansBold">08:42PM</h2>
+                                        <h1 class="nunitoSansRegular">13<sup>th</sup> November 2018</h1>
                                     </div>
                                 </div>
                             </div>
@@ -42,7 +30,7 @@
                                     <p class="category">24 Hours performance</p>
                                 </div>
                                 <div class="content">
-                                    <div id="chartHours" class="ct-chart"></div>
+                                    <div id="chartHours" class="ct-chart charts245"></div>
                                     <div class="footer">
                                         <div class="legend">
                                             <i class="fa fa-circle text-info"></i>
@@ -67,18 +55,18 @@
                         <div class="col-md-6">
                             <div class="card ">
                                 <div class="header">
-                                    <h4 class="title">2014 Sales</h4>
-                                    <p class="category">All products including Taxes</p>
+                                    <h4 class="title">Location</h4>
+                                    <p class="category">Every reports</p>
                                 </div>
                                 <div class="content">
-                                    <div id="chartActivity" class="ct-chart"></div>
-
+                                    <div id="chartActivity" class="ct-chart">
+                                        <img class="img-fluid" src="<?= toAbsolute('img/map.png'); ?>" alt="" srcset="">
+                                    </div>
+                            
                                     <div class="footer">
                                         <div class="legend">
-                                            <i class="fa fa-circle text-info"></i>
-                                            Tesla Model S
                                             <i class="fa fa-circle text-danger"></i>
-                                            BMW 5 Series
+                                            Dangerous areas
                                         </div>
                                         <hr>
                                         <div class="stats">
