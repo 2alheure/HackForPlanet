@@ -16,17 +16,17 @@
 <body>
     <nav>
         <div class="text-center">
-            <img class="logo" src="<?= toAbsolute('img/logo.png'); ?>" alt="HackForPlanet">
+            <a href="<?= base_url() ?>" title="Back to home page"><img class="logo" src="<?= toAbsolute('img/logo.png'); ?>" alt="HackForPlanet"></a>
         </div>
         <div class="menu">
-            <img src="<?= toAbsolute('img/profil.png'); ?>" alt="Profil">
-            <img src="<?= toAbsolute('img/logout.png'); ?>" alt="Se déconnecter">
+            <img src="<?= toAbsolute('img/profil.png'); ?>" alt="Profile">
+            <img src="<?= toAbsolute('img/logout.png'); ?>" alt="Disconnect">
         </div>
     </nav>
 
     <div class="fixed_menu">
         <ul>
-            <li><a href="#"><div></div> <span>Test</span></a></li>
+            <li><a href="<?= base_url('slides') ?>"><div></div> <span>Our pitch</span></a></li>
             <li><div></div> <span>Test</span></li>
             <li><div></div> <span>Test</span></li>
             <li><div></div> <span>Test</span></li>
