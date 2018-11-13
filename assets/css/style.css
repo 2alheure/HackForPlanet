@@ -1,3 +1,5 @@
+/** LAYOUT **/
+
 nav {
     height: 50px;
     box-shadow: 0 8px 10px -3px #EEEFF3;
@@ -23,4 +25,45 @@ nav .menu img {
 
 nav .menu img:last-child {
     width: 30px;
+}
+
+.fixed_menu {
+    position: fixed;
+    left: 0;
+    top: 30%;
+    -moz-box-shadow:    10px 10px 15px #EEEFF3;
+    -webkit-box-shadow: 10px 10px 15px #EEEFF3;
+    box-shadow:         10px 10px 15px #EEEFF3;
+}
+
+.fixed_menu ul {
+    padding-left: 0;
+}
+
+.fixed_menu ul li {
+    list-style-type: none;
+}
+
+.fixed_menu ul li div {
+    background: red;
+    height: 50px;
+    width: 50px;
+    margin: 10px;
+    margin-top: 20px;
+    border-radius: 15px;
+    display: inline-block;
+}
+
+.fixed_menu ul li span {
+    display: none;
+    position: relative;
+    bottom: 28px;
+    padding-right: 30px;
+}
+
+/** END LAYOUT **/
+
+a {
+    color: black !important;
+    text-decoration: none !important;
 }

@@ -23,10 +23,20 @@
         </div>
     </nav>
 
+    <div class="fixed_menu">
+        <ul>
+            <li><a href="#"><div></div> <span>Test</span></a></li>
+            <li><div></div> <span>Test</span></li>
+            <li><div></div> <span>Test</span></li>
+            <li><div></div> <span>Test</span></li>
+        </ul>
+    </div>
+
     <?php include($file . '.php'); ?>
 
     <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+    <script src="<?= toAbsolute('js/layout.js'); ?>"></script>
     
     <?php foreach ($js as $j) { ?>
         <script src="<?= toAbsolute($j) ?>"></script>
