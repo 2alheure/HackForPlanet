@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>HackForPlanet</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
-    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="<?= toAbsolute('css/style.css'); ?>">
 
     <?php foreach ($css as $c) { ?>
@@ -26,10 +26,11 @@
 
     <div class="fixed_menu">
         <ul>
-            <li><a href="<?= base_url('slides') ?>"><div></div> <span>Our pitch</span></a></li>
-            <li><div></div> <span>Test</span></li>
-            <li><div></div> <span>Test</span></li>
-            <li><div></div> <span>Test</span></li>
+            <li><a href="<?= base_url('slides') ?>"><div><i class="far fa-images"></i></div> <span>Our pitch</span></a></li>
+            <li><div class="yellow"><i class="far"></i></div> <span>Test</span></li>
+            <li><div class="orange"><i class="far"></i></div> <span>Test</span></li>
+            <li><div class="pink"><i class="far"></i></div> <span>Test</span></li>
+            <li><div class="redish"><i class="far"></i></div> <span>Test</span></li>
         </ul>
     </div>
 
