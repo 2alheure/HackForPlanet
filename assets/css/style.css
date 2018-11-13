@@ -3,7 +3,6 @@
     padding: 0;
 }
 
-<<<<<<< HEAD
 .nunitoSansRegular {
     font-family: 'Nunito Sans', sans-serif;
 }
@@ -11,10 +10,10 @@
 .nunitoSansBold {
     font-family: 'Nunito Sans', sans-serif;
     font-weight: 700;
-=======
+}
+
 body {
-    background-color: #f6f7fb;
->>>>>>> 27b4c4b405ce9d97a8de39b8fcb1f15a7261f420
+    background-color: #3157f0;
 }
 
 /** LAYOUT **/
