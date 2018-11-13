@@ -13,9 +13,6 @@ class StaticPages extends CI_Controller {
 			$layout = $load;
 			
 			switch ($load) {
-				case 'index':
-				case 'accueil':
-					$layout = 'home';
 				case 'slides':
 					$css[] = 'http://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.css';
 					$js[] = 'http://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.js';
