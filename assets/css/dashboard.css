@@ -2882,7 +2882,6 @@ fieldset[disabled] .btn-neutral.active {
     content: "";
     width: 0;
     height: 0;
-    padding-bottom: 75%;
 }
 
 .ct-perfect-fourth:after {
