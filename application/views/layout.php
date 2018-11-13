@@ -30,9 +30,9 @@
         <ul>
             <li><a href="<?= base_url('slides') ?>"><div><i class="far fa-images"></i></div> <span>Our pitch</span></a></li>
             <li><a href="<?= base_url('dashboard') ?>"><div class="yellow"><i class="far"></i></div> <span>Dashboard</span></a></li>
-            <li><div class="orange"><i class="far"></i></div> <span>Test</span></li>
-            <li><div class="pink"><i class="far"></i></div> <span>Test</span></li>
-            <li><div class="redish"><i class="far"></i></div> <span>Test</span></li>
+            <li><a href="<?= base_url('alert-map') ?>"><div><i class="far fa-map"></i></div> <span>Alerts' map (manager)</span></a></li>
+            <li><a href="<?= base_url('compare-maps') ?>"><div><i class="fas fa-map"></i></div> <span>Compare maps</span></a></li>
+            <li><a href="<?= base_url('#') ?>"><div><i class="far"></i></div> <span>Test</span></a></li>
         </ul>
     </div>
 

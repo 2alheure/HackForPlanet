@@ -56,6 +56,8 @@ $route['accueil'] = 'StaticPages/main';
 
 $route['slides'] = 'StaticPages/main/slides';
 $route['dashboard'] = 'StaticPages/main/dashboard';
+$route['alert-map'] = 'StaticPages/main/manager_map';
+$route['compare-maps'] = 'StaticPages/main/compare_maps';
 
 $route['default_controller'] = 'StaticPages/main';
 $route['404_override'] = '';

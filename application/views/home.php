@@ -1,1 +1,1 @@
-<img class="img_map" src="<?= toAbsolute('img/map.png'); ?>" alt="" />
+<img class="img_map" src="<?= toAbsolute('img/stats.png'); ?>" alt="" />
