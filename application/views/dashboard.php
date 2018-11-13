@@ -146,10 +146,7 @@
                                 </div>
                                 <div class="content">
                                     <div id="chartPreferences" class="ct-chart ct-perfect-fourth charts245">
-                                        <img src="<?= toAbsolute('img/weather.png'); ?>" alt="" srcset=""><br/>
-                                        <h2 class="nunitoSansBold">08:42PM</h2>
-                                        <h1 class="nunitoSansRegular">13<sup>th</sup>
-                                            November 2018</h1>
+                                        <h1 class="nunitoSansBold colorRed">Warning: an issue may happen.</h1>
                                     </div>
                                 </div>
                             </div>

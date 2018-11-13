@@ -3,7 +3,6 @@
     padding: 0;
 }
 
-<<<<<<< HEAD
 .nunitoSansRegular {
     font-family: 'Nunito Sans', sans-serif;
 }
@@ -52,7 +51,7 @@ nav .menu img:last-child {
 }
 
 .fixed_menu {
-    position: absolute;
+    position: fixed;
     left: 0;
     top: 50vh;
     transform: translate(0,-50%);
@@ -122,10 +121,18 @@ a {
 .img_map {
     display: block;
     margin: 0 auto;
-    width: 40%;
+    width: 70%;
     position: relative;
     top: 100px;
     z-index: 1;
+}
+
+.img_map_alert {
+    width: 50%;
+}
+
+.img_map, .img_map_alert {
+    max-width: 60vw;
 }
 
 .mTop100 {
@@ -145,4 +152,8 @@ a {
     position: relative;
     top: 8px;
     left: 7px;
+}
+
+.colorRed {
+    color: #fe4f70;
 }
