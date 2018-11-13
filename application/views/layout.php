@@ -7,6 +7,10 @@
     <title>HackForPlanet</title>
     <link rel="stylesheet" href="<?= toAbsolute('css/style.css'); ?>">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+
+    <?php foreach ($css as $c) { ?>
+        <link rel="stylesheet" href="<?= toAbsolute($c) ?>">
+    <?php } ?>
 </head>
 <body>
     <nav>
@@ -21,6 +25,11 @@
 
     <?php include($file . '.php'); ?>
 
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+    
+    <?php foreach ($js as $j) { ?>
+        <script src="<?= toAbsolute($j) ?>"></script>
+    <?php } ?>
 </body>
 </html>
