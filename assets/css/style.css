@@ -3,6 +3,7 @@
     padding: 0;
 }
 
+<<<<<<< HEAD
 .nunitoSansRegular {
     font-family: 'Nunito Sans', sans-serif;
 }
@@ -10,6 +11,10 @@
 .nunitoSansBold {
     font-family: 'Nunito Sans', sans-serif;
     font-weight: 700;
+=======
+body {
+    background-color: #f6f7fb;
+>>>>>>> 27b4c4b405ce9d97a8de39b8fcb1f15a7261f420
 }
 
 /** LAYOUT **/
@@ -47,9 +52,11 @@ nav .menu img:last-child {
 }
 
 .fixed_menu {
-    position: fixed;
+    position: absolute;
     left: 0;
-    top: 30%;
+    top: 50vh;
+    transform: translate(0,-50%);
+    -ms-transform: translate(0,-50%);
     -moz-box-shadow:    10px 10px 15px #EEEFF3;
     -webkit-box-shadow: 10px 10px 15px #EEEFF3;
     box-shadow:         10px 10px 15px #EEEFF3;
@@ -66,20 +73,38 @@ nav .menu img:last-child {
 }
 
 .fixed_menu ul li div {
-    background: red;
-    height: 50px;
-    width: 50px;
-    margin: 10px;
-    margin-top: 20px;
-    border-radius: 15px;
+    color: black;
+    min-width: 50px;
+    min-height: 50px;
+    height: 5vh;
+    width: 5vh;
+    margin: 1vh 10px;
+    margin-top: 2vh;
+    border-radius: 1.5vh;
     display: inline-block;
 }
 
 .fixed_menu ul li span {
     display: none;
     position: relative;
-    bottom: 28px;
-    padding-right: 30px;
+    bottom: 3vh;
+    padding-right: 3vh;
+}
+
+.yellow {
+    background-color: #ffbf43;
+}
+
+.pink {
+    background-color: #ff8da2;
+}
+
+.orange {
+    background-color: #ff9351;
+}
+
+.redish {
+    background-color: #fe4f70;
 }
 
 /** END LAYOUT **/
