@@ -7,17 +7,22 @@ class StaticPages extends CI_Controller {
 
 		$css = array();
 		$js = array();
-
+		
 		if (!empty($load)) {
-
+			
+			$layout = $load;
+			
 			switch ($load) {
+				case 'index':
+				case 'accueil':
+					$layout = 'home';
 				case 'slides':
 					$css[] = 'http://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.css';
 					$js[] = 'http://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.js';
 					break;
 			}
 
-			if (is_file(APPPATH.'views/'.$load.'.php')) $this->load->view('layout', ['file' => $load, 'css' => $css, 'js' => $js]);
+			if (is_file(APPPATH.'views/'.$load.'.php')) $this->load->view('layout', ['file' => $layout, 'css' => $css, 'js' => $js]);
 			else show_404();
 
 		} else $this->load->view('layout', ['file' => 'home', 'css' => $css, 'js' => $js]);
