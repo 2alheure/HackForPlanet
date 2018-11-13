@@ -1,0 +1,26 @@
+nav {
+    height: 50px;
+    box-shadow: 0 8px 10px -3px #EEEFF3;
+}
+
+nav .logo {
+    position: relative;
+    top: 15px;
+    width: 70px;
+}
+
+nav .menu {
+    float: right;
+    position: relative;
+    right: 100px;
+    bottom: 57px;
+}
+
+nav .menu img {
+    width: 25px;
+    margin-left: 20px;
+}
+
+nav .menu img:last-child {
+    width: 30px;
+}
